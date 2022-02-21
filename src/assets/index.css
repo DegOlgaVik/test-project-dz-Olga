@@ -41,9 +41,32 @@ body {
     margin-bottom: 0;
 }
 
+#position {
+    text-align: center;
+}
+
 #language {
     transform: rotate(-90deg);
     transform-origin: right bottom;
     margin-bottom: 80px;
 }
-  
+
+#foto {
+    display: block;
+    margin-top: 30px;
+}
+
+#about-me {
+    background: #F6F6F6;
+}
+
+#name-block {
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
