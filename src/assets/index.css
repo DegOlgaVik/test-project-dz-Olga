@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Gilroy-Bold;
+    font-family: sans-serif;
     font-size: 18px;
     color: #070707;
 }
@@ -63,6 +63,7 @@ body {
 
 #about-me {
     background: #F6F6F6;
+    padding: 30px 0;
 }
 
 .info {
@@ -87,5 +88,41 @@ body {
     background: #F6F6F6;
     margin-bottom: 80px;
     padding: 30px 0;
+    text-align: center;
 }
 
+.name-shop {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+#link {
+    text-decoration-line: none;
+    padding: 10px 20px;
+    background: #070707;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin: auto;
+}
+.insta {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#info1 {
+    color: #828282;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
