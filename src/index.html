@@ -6,7 +6,7 @@
     <body>
         <div class="container">
             <header>
-                <div id="top-menu">
+                <div id="top-menu"data-test-id="block__menu">
                     <a href="/src/index.html" class="menu-item">Home</a>
                     <a href="/src/index.html#about-me" class="menu-item">About me</a>
                     <a href="/src/index.html#skills" class="menu-item">Skills</a>
@@ -29,7 +29,7 @@
             <div class="foto"><img src="assets/images/foto.jpg"></div>
         </div>    
 
-        <div id="about-me">
+        <div id="about-me"> 
             <h1 class="center">About me</h1>
             <div class="info">
             Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.<br><br>
@@ -53,7 +53,7 @@
         </div>
 
         <div id="portfolio">
-            <div class="name-block"><h1 class="center">Portfolio</h1></div>
+            <div class="name-block" data-test-id="text__name"><h1 class="center">Portfolio</h1></div>
             <div class="foto center"><img src="assets/images/Слой 8.png"></div>
             <a class="name-shop" href="javascript:void(0);">Online fashion store - Homepage</a>
             <div class="foto center"><img src="assets/images/reebok_web.jpg"></div>
@@ -66,10 +66,9 @@
             <h1 class="center">Contact</h1>
             <div class="info"> 
             Want to know more or just chat?<br>You are welcome! </div>
-            <div class=center><a id="link" href="https://t.me/OlgaDegteva" target="_blank">Send message</a> </div>
+            <div class=center><a id="link" href="https://t.me/OlgaDegteva" target="_blank"data-test-id="link__telegram">Send message</a></div>
             <div class="insta"><a href="https://www.instagram.com/" target="_blank"> <img src="assets/images/Group 12.png"/></a></div>
-            <div id="info1"> 
-                Like me on<br>LinkedIn, Instagram, Behance, Dribble</div>
+            <div id="info1">Like me on<br>LinkedIn, Instagram, Behance, Dribble</div>
          </div>
     </body>
 </html>
